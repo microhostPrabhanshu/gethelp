@@ -1,4 +1,4 @@
 baseURL = 'https://gethelp-co-in.onrender.com/'
 languageCode = 'en-us'
 title = 'Micro Host Cloud ... '
-theme = 'hyde'
+theme = 'hugo-coder'

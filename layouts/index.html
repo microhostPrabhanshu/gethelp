@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-	<meta name="generator" content="Hugo 0.93.2" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>&lt;^>Micro Host Cloud ... </title>
+    <title><^>{{ .Site.Title }}</title>
     <link rel="stylesheet" href="/style.css">
   </head>
   <body>
 
     <header>
-      <h1>Micro Host Cloud ... </h1>
+      <h1>{{ .Site.Title }}</h1>
     </header>
     
     <main>
-      <h2>Welcome</h2>
-      <p>This is a Home Page  _index.md</p>
-
+      <h2>{{ .Title }}</h2>
+      {{ .Content }}
     </main>
 
     <footer>
